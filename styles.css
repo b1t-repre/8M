@@ -22,6 +22,10 @@ nav {
     top: 0; left: 0; right: 0; z-index: 9999
 }
 
+.nav_img {
+    width: 4rem;
+    height: auto;
+}
 .navbar_text {
     font-size: 18px;
     color: #e2e1e7;
@@ -36,7 +40,7 @@ nav {
 }
 
 footer {
-    padding: 2rem;
+    padding: 1rem;
     background-color: #242326;
     color: #e2e1e7;
     text-align: center;
@@ -52,4 +56,10 @@ footer {
 .footer_link:hover {
     color: #efcbf3;
     text-decoration: underline;
+}
+
+@media (max-width: 420px) {
+    .nav_img {
+        display: none;
+    }
 }
