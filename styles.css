@@ -5,7 +5,7 @@
     }
 
 .content {
-    padding: 2.5rem 2.5rem;
+    padding: 2.5rem;
 }
 
 nav {
@@ -23,7 +23,7 @@ nav {
 }
 
 .nav_img {
-    width: 4rem;
+    width: 60px;
     height: auto;
 }
 .navbar_text {
