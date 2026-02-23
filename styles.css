@@ -23,7 +23,7 @@ nav {
 }
 
 .nav_img {
-    height: auto;
+    display: block;
 }
 .navbar_text {
     font-size: 18px;
